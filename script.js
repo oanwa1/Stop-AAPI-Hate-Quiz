@@ -60,6 +60,7 @@ restart_quiz.onclick = ()=>{
     userScore = 0;
     widthValue = 0;
     score = 0;
+    score_count.textContent = score;
     showQuetions(que_count); //calling showQestions function
     queCounter(que_numb); //passing que_numb value to queCounter
     clearInterval(counter); //clear counter
